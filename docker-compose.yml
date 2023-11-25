@@ -1,0 +1,10 @@
+version: '3'
+services:
+  sandbox:
+    build: ./docker/sandbox
+    container_name: sandbox
+    volumes:
+      - ./:/src
+    environment:
+      TZ: 'Asia/Tokyo'
+    tty: true
