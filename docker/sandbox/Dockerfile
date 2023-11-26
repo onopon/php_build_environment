@@ -20,7 +20,10 @@ autoconf \
 bison \
 re2c \
 libxml2-dev \
-libsqlite3-dev
+libsqlite3-dev \
+gdb \
+gcc \
+cmake
 
 WORKDIR /src
 SHELL ["/bin/bash", "-c"]
