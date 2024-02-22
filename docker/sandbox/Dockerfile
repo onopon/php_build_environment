@@ -23,7 +23,11 @@ libxml2-dev \
 libsqlite3-dev \
 gdb \
 gcc \
-cmake
+cmake \
+php-ast \
+php-pear \
+php-dev \
+&& pecl install ast
 
 WORKDIR /src
 SHELL ["/bin/bash", "-c"]
