@@ -27,7 +27,7 @@ cmake \
 php-ast \
 php-pear \
 php-dev \
-&& pecl install ast
+RUN pecl install ast
 
 WORKDIR /src
 SHELL ["/bin/bash", "-c"]
