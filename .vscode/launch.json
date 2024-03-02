@@ -7,6 +7,9 @@
       "request": "launch",
       "program": "${workspaceFolder}/sapi/cli/php",
       "args": [
+        "-d opcache.opt_debug_level=0x10000",
+        "-d opcache.enable_cli",
+        "-d zend_extension=${workspaceFolder}/modules/opcache.so",
         "${workspaceFolder}/test.php"
       ],
       "stopAtEntry": false,
@@ -15,9 +18,9 @@
       "externalConsole": false,
       "MIMode": "gdb",
       "logging": {
-        "trace": true,
-        "engineLogging": true,
-        "traceResponse": true
+        "trace": false,
+        "engineLogging": false,
+        "traceResponse": false
       },
       "setupCommands": [
         {
