@@ -16,4 +16,5 @@ docker compose exec sandbox bash -c "
     "
 
 cp test.php php-src/
+cp ast_parse_test.php php-src/
 cp -r .vscode php-src/
