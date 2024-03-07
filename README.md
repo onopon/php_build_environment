@@ -4,6 +4,12 @@
 
 本リポジトリは、[php-src](https://github.com/php/php-src)をビルドするためのdocker環境を提供するリポジトリです。
 
+PHPerkaigi 2024にて、「php-src debug マニュアル」というタイトルで発表させていただきました。
+
+https://fortee.jp/phperkaigi-2024/proposal/26fcb764-0a5a-4759-9cb7-d8f14814e97a
+
+https://speakerdeck.com/onopon/php-src-debug-maniyuaru
+
 ## 環境構築方法
 
 1. Dockerコマンドを利用できる状況にしてください。
